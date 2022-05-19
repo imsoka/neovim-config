@@ -6,10 +6,10 @@
 -- |_____/ \___/|_|\_\__,_| :_;:_;  :_;`.__;`.__.'`.__.'
 ---------------------------------------------------------
 --
---  Neovim config main file.
+--  Neovim configuration file.
 --
 --  Created at = 25/04/2022
---  Updated at = 25/04/2022
+--  Updated at = 28/04/2022
 --  Author: Soka
 
 require('options')
