@@ -1,4 +1,0 @@
--- PHP intelephense Configuration
--- 
-
-
