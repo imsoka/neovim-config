@@ -60,4 +60,11 @@ return require('packer').startup(function()
             "saadparwaiz1/cmp_luasnip",
         }
     }
+
+    use {
+        "akinsho/toggleterm.nvim",
+        tag = 'v1.*',
+        config = require("plugins.toggleterm")
+    }
+
 end)
