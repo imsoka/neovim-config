@@ -19,12 +19,6 @@ return require('packer').startup(function()
         }
     }
 
-    -- Dashboard
-    use {
-        'glepnir/dashboard-nvim',
-        config = require('plugins.dashboard')
-    }
-
     -- LSP Installer
     use {
         'williamboman/nvim-lsp-installer',

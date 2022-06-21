@@ -1,3 +1,8 @@
 local toggleterm = require("toggleterm")
 
-toggleterm.setup()
+toggleterm.setup({
+    open_mapping = [[<c-\>]],
+    direction = 'float',
+    hide_numbers = true,
+    start_in_insert = true,
+})
