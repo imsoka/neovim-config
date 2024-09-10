@@ -7,7 +7,7 @@ vim.opt.relativenumber = true
 
 -- Columns
 vim.opt.signcolumn = "auto:1-3"
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = 80, 120
 
 -- Default tab behavior
 vim.opt.tabstop = 4
