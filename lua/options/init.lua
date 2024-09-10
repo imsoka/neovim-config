@@ -1,3 +1,7 @@
+-- Set space as leader
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
+
 -- Basic config
 vim.opt.hidden = true
 
@@ -5,9 +9,12 @@ vim.opt.hidden = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- Limit line width
+vim.opt.textwidth = 120
+
 -- Columns
 vim.opt.signcolumn = "auto:1-3"
-vim.opt.colorcolumn = 80, 120
+vim.opt.colorcolumn = "-40,+0"
 
 -- Default tab behavior
 vim.opt.tabstop = 4
