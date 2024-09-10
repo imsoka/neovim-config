@@ -1,5 +1,3 @@
-require("plugins")
 require("options")
-require("keymaps")
+require("pm")
 require("lsp")
-require("dapconfig")

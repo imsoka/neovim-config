@@ -14,6 +14,8 @@ vim.opt.textwidth = 120
 
 -- Columns
 vim.opt.signcolumn = "auto:1-3"
+
+-- Relative to textwidth
 vim.opt.colorcolumn = "-40,+0"
 
 -- Default tab behavior
@@ -28,11 +30,7 @@ vim.opt.undofile = true
 -- Never wrap lines
 vim.opt.wrap = false
 
--- Gruvbox colorscheme
-vim.o.background = "dark"
-vim.cmd([[colorscheme gruvbox]])
-
 -- Update LSP while on insert mode
 vim.diagnostic.config({
-    update_in_insert = true
+  update_in_insert = true
 })
